@@ -5,11 +5,11 @@
 }
 
 body {
-  background-image: url("./images/bg.jpg");
+  background-image: url('./images/bg.jpg');
 }
 
 .aiva {
-  background: url("./images/aiva_side_bg.jpg") no-repeat;
+  background: url('./images/aiva_side_bg.jpg') no-repeat;
   width: 33vw;
   height: 100vh;
   margin: 0;
@@ -88,11 +88,7 @@ h1 {
   right: 8.75rem;
 }
 
-
-
 /*---------------------- responsive------------------------------ */
-
-
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
@@ -121,7 +117,7 @@ h1 {
 
   .secondary,
   .primary {
-    width: 160px;
+    width: 180px;
     padding: 0 !important;
   }
 
@@ -183,8 +179,6 @@ h1 {
   }
 }
 
-
-
 /*--------------------- medium device -----------------------*/
 @media (max-width: 880px) {
   h1 {
@@ -210,11 +204,8 @@ h1 {
   }
 
   .subheader {
-   
     margin-bottom: 10px;
   }
-
-
 
   .primary {
     margin-right: 25px;
@@ -237,14 +228,10 @@ h1 {
     background-size: cover;
   }
 
-
   .rocket-image {
     width: 18rem;
     height: auto;
     position: absolute;
     top: 48vh;
-
   }
-
-
 }
