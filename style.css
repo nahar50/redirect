@@ -5,11 +5,11 @@
 }
 
 body {
-  background-image: url(./images/bg.jpg);
+  background-image: url("./images/bg.jpg");
 }
 
 .aiva {
-  background: url(./images/aiva_side_bg.jpg) no-repeat;
+  background: url("./images/aiva_side_bg.jpg") no-repeat;
   width: 33vw;
   height: 100vh;
   margin: 0;
