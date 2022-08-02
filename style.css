@@ -173,7 +173,9 @@ h1 {
     width: 16rem;
     height: auto;
     position: absolute;
-    top: 250px;
+    /* top: 250px; */
+    top: 38vh;
+    /* bottom: 100px; */
   }
 
   .secondary {
@@ -183,3 +185,12 @@ h1 {
 }
 
 /*--------------------- medium device -----------------------*/
+@media (max-width: 414px) {
+
+  .rocket-image {
+    width: 16rem;
+    height: auto;
+    position: absolute;
+    bottom: 2px;
+  }
+  }
