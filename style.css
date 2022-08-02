@@ -88,6 +88,8 @@ h1 {
   right: 8rem;
 }
 
+
+/* -------------------------------------------------------------------- */
 /*---------------------- responsive------------------------------ */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -97,18 +99,29 @@ h1 {
   .primary {
     max-width: 160px;
     font-size: 13px;
-    padding: 0 !important;
+  }
+
+  
+  .aiva {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-position: 25% 50%;
+    background-size: cover;
   }
 }
 
-@media (max-width: 576px) {
+
+/* -------------------------------------------------------------------- */
+
+@media (max-width: 624px) {
   h1 {
     font-size: 46px;
     line-height: 46px;
   }
   .a2b {
     top: 2rem;
-    right: 3rem;
+    right: 100px;
     width: 100px;
   }
 
@@ -161,7 +174,7 @@ h1 {
   }
 
   .aiva {
-    width: 100%;
+    width: 100vw;
     max-height: 200px;
     position: absolute;
     bottom: 0;
@@ -189,7 +202,10 @@ h1 {
   }
 }
 
+
+
 /*--------------------- medium device -----------------------*/
+
 @media (max-width: 880px) {
   h1 {
     font-size: 52px;
@@ -201,10 +217,9 @@ h1 {
     width: 130px;
   }
 
-  .buttons {
-    display: flex;
-    align-items: center;
-  }
+.moretext{
+  margin: 15px 0px!important;
+}
 
   .subheader,
   .secondary,
@@ -217,9 +232,6 @@ h1 {
     margin-bottom: 10px;
   }
 
-  .primary {
-    margin-right: 25px;
-  }
 
   .right,
   .right-content {
@@ -230,7 +242,7 @@ h1 {
   }
 
   .aiva {
-    width: 100%;
+    width: 100vw;
     max-height: 250px;
     position: absolute;
     bottom: 0;
@@ -245,3 +257,7 @@ h1 {
     top: 48vh;
   }
 }
+
+
+
+
