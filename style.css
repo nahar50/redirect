@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/images/bg.jpg');
+}
+
+.aiva {
+  background: url(/images/aiva_side_bg.jpg) no-repeat;
+  width: 33vw;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+.rocket {
+  position: absolute;
+  top: 20vh;
+  left: 7.4vw;
+}
+
+.rocket-image {
+  height: 30vw;
+}
+
+.subheader {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.7;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 6.125rem;
+  line-height: 90px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #0025df 1%, #94a3ff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.moretext {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 155%;
+  color: #081e57;
+  opacity: 0.9;
+  max-width: 700px;
+}
+
+.primary {
+  width: 250px;
+  height: 54px;
+  background: #425ae7;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.secondary {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  color: #425ae7;
+  width: 250px;
+  height: 54px;
+  background: #ffffff;
+  border: 2px solid #425ae7;
+  border-radius: 5px;
+}
+
+.a2b {
+  position: fixed;
+  top: 2.27rem;
+  right: 8.75rem;
+}
+
+/* .right {
+  width: 66vw;
+  height: 100vh;
+} */
+
+/*---------------------- responsive------------------------------ */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 46px;
+    line-height: 46px;
+  }
+  .a2b {
+    top: 2rem;
+    right: 3rem;
+    width: 100px;
+  }
+
+  .subheader,
+  .secondary,
+  .primary {
+    font-size: 14px;
+    line-height: 0px;
+  }
+
+  .subheader,
+  .primary {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .secondary,
+  .primary {
+    width: 160px;
+    padding: 0 !important;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .primary {
+    margin-right: 15px;
+  }
+
+  .right,
+  .right-content {
+    margin: 0px !important;
+  }
+  .right-content {
+    margin-top: 40px !important;
+  }
+  .right {
+    padding: 40px 20px !important;
+  }
+  .main {
+    display: block !important;
+    position: relative;
+    height: 100vh;
+  }
+
+  .moretext {
+    display: none;
+  }
+
+  .aiva {
+    width: 100%;
+    max-height: 200px;
+    position: absolute;
+    bottom: 0;
+    background-position: 25% 50%;
+    background-size: cover;
+  }
+
+  .rocket {
+    /* display: none; */
+    position: relative;
+  }
+
+  .rocket-image {
+    width: 16rem;
+    height: auto;
+    position: absolute;
+    top: 250px;
+  }
+
+  .secondary {
+    margin-left: 0 !important ;
+    margin-top: 10px !important;
+  }
+}
+
+/*--------------------- medium device -----------------------*/
