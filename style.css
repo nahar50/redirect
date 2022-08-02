@@ -84,13 +84,23 @@ h1 {
 
 .a2b {
   position: fixed;
-  top: 2.27rem;
-  right: 8.75rem;
+  top: 20px;
+  right: 8rem;
 }
 
 /*---------------------- responsive------------------------------ */
 
 /* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 376px) {
+  .secondary,
+  .primary {
+    max-width: 160px;
+    font-size: 13px;
+    padding: 0 !important;
+  }
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 46px;
@@ -117,7 +127,7 @@ h1 {
 
   .secondary,
   .primary {
-    width: 180px;
+    max-width: 180px;
     padding: 0 !important;
   }
 
