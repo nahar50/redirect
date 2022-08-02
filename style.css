@@ -9,7 +9,7 @@ body {
 }
 
 .aiva {
-  background: url(./images/aiva_side_bg.jpg) no-repeat;
+  background: url('./images/aiva_side_bg.jpg') no-repeat;
   width: 33vw;
   height: 100vh;
   margin: 0;
